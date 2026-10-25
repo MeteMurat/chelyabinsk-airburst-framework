@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "mode": "full1000",
+  "status": "FAIL_CLEAN_MATLAB_REPLAY",
+  "matlab_forward_replay_executed": true,
+  "mc_rows_replayed": 8,
+  "population_rows_recomputed": 32,
+  "scientific_model_modified": false,
+  "full_reproduction_verified": false,
+  "started_utc": "2026-10-25T12:35:37Z",
+  "matlab_release": "2025b",
+  "matlab_version": "25.2.0.2998904 (R2025b)",
+  "architecture": "win64",
+  "replay_execution": "CPU sequential; no parpool or gpuArray requested by replay harness",
+  "rng_generator": "twister",
+  "error_identifier": "MATLAB:table:UnequalVarLengths",
+  "error_summary": "A replay check failed. Inspect local matlab_console.log and checks.csv.",
+  "check_count": 533
+}

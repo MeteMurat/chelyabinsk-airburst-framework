@@ -1,10 +1,10 @@
 # Replay status
 
-Status: **R1_C6E_R2_SYNTAX_REPAIRED_FORWARD_REPLAY_PENDING**
+Status: **FAIL_CLEAN_MATLAB_REPLAY**
 
-MATLAB forward execution: `False`
-Monte Carlo rows replayed: `0`
-Population exposure rows recomputed: `0`
+MATLAB forward execution: `True`
+Monte Carlo rows replayed: `8`
+Population exposure rows recomputed: `32`
 Full 1000-member replay verified: `False`
 
 Numerical reproduction is not independent physical validation.
