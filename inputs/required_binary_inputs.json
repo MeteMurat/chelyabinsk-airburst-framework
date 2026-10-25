@@ -1,0 +1,16 @@
+[
+  {
+    "filename": "Meteor.stl",
+    "destination": "04_data/geometry/Meteor.stl",
+    "sha256": "30DC0618D7FEF9F2C4A9AE4D3830EC85EA1B2B9FD8EEAC64260461E223303F76",
+    "size": 1344084,
+    "redistributed_on_github": false
+  },
+  {
+    "filename": "turkiye.tif",
+    "destination": "04_data/population/turkiye.tif",
+    "sha256": "084349E49339606D30B95B6AF60EB06DF012297BEF2040F72E6D3C836253BE16",
+    "size": 3756736,
+    "redistributed_on_github": false
+  }
+]

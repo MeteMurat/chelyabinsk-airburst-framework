@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "status": "MATLAB_FORWARD_REPLAY_NOT_YET_EXECUTED",
+  "matlab_forward_replay_executed": false,
+  "mc_rows_replayed": 0,
+  "population_rows_recomputed": 0,
+  "full_reproduction_verified": false,
+  "scientific_model_modified": false,
+  "note": "Package/static and archived-output checks are not a substitute for a new MATLAB forward run."
+}

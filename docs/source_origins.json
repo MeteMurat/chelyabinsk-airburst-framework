@@ -1,0 +1,142 @@
+[
+  {
+    "path": "01_final_core/meteor_single_run.m",
+    "sha256": "BE3DAC129E6A9DC9D0CCF1D8F95D72E7E0A11EA19E041942E71A20CD47697ABC",
+    "source_filename": "meteor_single_run.m",
+    "transformation": "NONE_BYTE_IDENTICAL"
+  },
+  {
+    "path": "01_final_core/meteor_single_run_r3b3_diagnostic.m",
+    "sha256": "58EF0D1C6F45476C600356961B3BCABAF9C7A3D2FE0569E20401D9436E68C59A",
+    "source_filename": "meteor_single_run_r3b3_diagnostic.m",
+    "transformation": "NONE_BYTE_IDENTICAL"
+  },
+  {
+    "path": "01_final_core/make_stl_geometry_summary.m",
+    "sha256": "8A8EE414114C2FBC0AF81CCBA12794A50E8211286B19CCFE4803678E3DF606E7",
+    "source_filename": "make_stl_geometry_summary.m",
+    "transformation": "NONE_BYTE_IDENTICAL"
+  },
+  {
+    "path": "01_final_core/make_stl_local_radius_summary.m",
+    "sha256": "E3AB117ADFE55BBE5C42AF30DA8146B64A729EA5CD515E3F8AA2C044E14B373E",
+    "source_filename": "make_stl_local_radius_summary.m",
+    "transformation": "NONE_BYTE_IDENTICAL"
+  },
+  {
+    "path": "01_final_core/run_r3c2c_r2_corrected_full1000.m",
+    "sha256": "D3140A7D002FC33F074298FC47868FF73948A0D5D9390F1EBB40B90FD04D3082",
+    "source_filename": "01_candidate_project__run_r3c2c_r2_corrected_full1000.m",
+    "transformation": "NONE_BYTE_IDENTICAL"
+  },
+  {
+    "path": "historical_drivers/run_r3c1_corrected_nominal_g4.m",
+    "sha256": "0614C4F831CB3CE89092ABA10AB76EC95D0AA79DE2A09A6BACA12C7A5C017AA4",
+    "source_filename": "run_r3c1_corrected_nominal_g4.m",
+    "transformation": "NONE_BYTE_IDENTICAL"
+  },
+  {
+    "path": "historical_drivers/run_r3c3b_corrected_full1000_overpressure.m",
+    "sha256": "E21BAEB323F84B6D9035D4AA443BE48FDAA06F42291F0539D14755E1744EAE8B",
+    "source_filename": "run_r3c3b_corrected_full1000_overpressure.m",
+    "transformation": "NONE_BYTE_IDENTICAL"
+  },
+  {
+    "path": "historical_drivers/run_r3c4d_r2_cumsum_compatibility_repair.m",
+    "sha256": "A637DC84412A60F95775AA745916FACC85229C306FF71777B6B9CCA5E289A0AE",
+    "source_filename": "run_r3c4d_r2_cumsum_compatibility_repair.m",
+    "transformation": "NONE_BYTE_IDENTICAL"
+  },
+  {
+    "path": "inputs/mc_design.csv",
+    "sha256": "56D2B6FA994015333E453D4759B6D4501D494BACEE102525A7F40B44A7239C85",
+    "source_filename": "chelyabinsk_r3c2a_mc_contract_input_design_20260725_142012__R3C2A_mc_input_design_1000.csv",
+    "transformation": "NONE_BYTE_IDENTICAL"
+  },
+  {
+    "path": "inputs/pilot64.csv",
+    "sha256": "2E7F36E1127DD05497CEB8B242CB9F7A89C496E5C3ED6A3A085F04F2A4DF64F6",
+    "source_filename": "01_candidate_project__R3C2B_pilot64_results.csv",
+    "transformation": "NONE_BYTE_IDENTICAL"
+  },
+  {
+    "path": "inputs/historical_horizon_gate.csv",
+    "sha256": "7EA979633315CC9D866BF6D054F4A13A5B0689D0060B2EA2457A7E773D27010D",
+    "source_filename": "01_candidate_project__R3C2B_R1_horizon_gate_adjudication.csv",
+    "transformation": "NONE_BYTE_IDENTICAL"
+  },
+  {
+    "path": "expected/g0g4.csv",
+    "sha256": "10CD4D27648C58FAAFB27A5F9429A4EDA3A265C541C54623C4C902281C4F3CA5",
+    "source_filename": "R3B3_G0_G4_R128_T360_numeric_audit.csv",
+    "transformation": "NONE_BYTE_IDENTICAL"
+  },
+  {
+    "path": "expected/nominal.csv",
+    "sha256": "6BC92C90C8017CBB774D0D9C9425A67BAD920365CDB373499CFA7DB1B28010EB",
+    "source_filename": "R3C1_corrected_nominal_G4_summary.csv",
+    "transformation": "NONE_BYTE_IDENTICAL"
+  },
+  {
+    "path": "expected/nominal_timeseries.csv",
+    "sha256": "621068B3CC95766C3A1A5E3F4E53C0B8D703E03EE055239D721D289A8C6C41EA",
+    "source_filename": "R3C1_nominal_timeseries.csv",
+    "transformation": "NONE_BYTE_IDENTICAL"
+  },
+  {
+    "path": "expected/nominal_deposition.csv",
+    "sha256": "C6411C7BBAAE10BE40A0A7C643EF974E711B1EB1719244FBC9B0B742D1BCCBA3",
+    "source_filename": "R3C1_nominal_deposition_profile.csv",
+    "transformation": "NONE_BYTE_IDENTICAL"
+  },
+  {
+    "path": "expected/mc_metrics.csv",
+    "sha256": "12A2E2C6D00B4438F9EF1ED3D397370CFCB4D9E01521534A3C20A585B9845C66",
+    "source_filename": "R3C2C_full1000_publishable_metric_matrix.csv",
+    "transformation": "NONE_BYTE_IDENTICAL"
+  },
+  {
+    "path": "expected/mc_diagnostics.csv",
+    "sha256": "4015DDF40292D1134A230F6F225B3B87CA32BE78C45A13B89A6D07C81539B077",
+    "source_filename": "STREAM_mc_full1000__R3C2C_full1000_results.csv",
+    "transformation": "NONE_BYTE_IDENTICAL"
+  },
+  {
+    "path": "expected/nominal_pressure.csv",
+    "sha256": "8B5A183B33A87CC2C13D7C2105CE77550B329D18FE692C439746C20133D63D2E",
+    "source_filename": "R3C3A_nominal_threshold_radius_audit.csv",
+    "transformation": "NONE_BYTE_IDENTICAL"
+  },
+  {
+    "path": "expected/pressure.csv",
+    "sha256": "D653D59E1151BAF01AC9AAE5494D9F1E92823A30BE9AF5B0EBC31ADC12B1CFB5",
+    "source_filename": "R3C3B_full1000_pressure_radius_metric_matrix.csv",
+    "transformation": "NONE_BYTE_IDENTICAL"
+  },
+  {
+    "path": "expected/population.csv",
+    "sha256": "9B0E418C2BE8680C92E9244B0A5C9B0F1419CFBCC0328B7CB52B90C671376E04",
+    "source_filename": "R3C4D_full1000_population_exposure_results.csv",
+    "transformation": "NONE_BYTE_IDENTICAL"
+  },
+  {
+    "path": "expected/nominal_population.csv",
+    "sha256": "1078E6681843504EC3E4F386303A6AF067348A3DD33FD5282A20EA69C7F67E0F",
+    "source_filename": "R3C4D_nominal_population_exposure.csv",
+    "transformation": "NONE_BYTE_IDENTICAL"
+  },
+  {
+    "path": "expected/geometry.csv",
+    "sha256": "377CA58B6FE856060E48291B3C8B61903C926AB63ABDD061D0A8A3F57ABCF109",
+    "source_filename": "geometry_summary.csv",
+    "source_sha256": "03434B014F74399857EE4AA4F06AC2432F1DD0EDE66C2A4CED8D9462D9DEB3A5",
+    "transformation": "Removed local stl_file path column ONLY; all numeric fields preserved as source strings."
+  },
+  {
+    "path": "expected/local_radius.csv",
+    "sha256": "0A347671F288E1A31CF97818262F571B313B29CDD439F6ADC5F265C38741D082",
+    "source_filename": "local_radius_summary.csv",
+    "source_sha256": "07AE2F7EEF689AF648B6EE0C3A27D291DAA1DE950DFFC9086FC27521399FDC08",
+    "transformation": "Removed local stl_file path column ONLY; all numeric fields preserved as source strings."
+  }
+]

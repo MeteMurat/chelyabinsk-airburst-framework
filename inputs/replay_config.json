@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "manuscript_number": "AISR-D-26-02161",
+  "comment": "R1-C6",
+  "nominal": {
+    "rho_meteor": 3300,
+    "V0": 19160,
+    "entry_angle_deg": 18.3,
+    "D0": 19.8,
+    "area_multiplier": 1.17161624727046,
+    "h0": 97100,
+    "Yield_Stress_0": 7800000.0,
+    "min_strength_fraction": 0.45,
+    "weakening_mass_coeff": 0.18,
+    "Cd": 1.0,
+    "Ch": 0.015,
+    "Qabl": 8000000.0,
+    "max_generations": 3,
+    "max_total_fragments": 128,
+    "base_fragment_count": 5,
+    "dispersion_speed": 250,
+    "cloud_area_gain": 2.5,
+    "dt": 0.02,
+    "tmax": 360,
+    "energy_efficiency": 0.8,
+    "energy_bin_width_m": 500,
+    "seed": 42
+  },
+  "g0g4": [
+    {
+      "case_id": "G0",
+      "area_multiplier": 1.0
+    },
+    {
+      "case_id": "G1",
+      "area_multiplier": 1.05647211203252
+    },
+    {
+      "case_id": "G2",
+      "area_multiplier": 1.19030791158128
+    },
+    {
+      "case_id": "G3",
+      "area_multiplier": 1.24526352606026
+    },
+    {
+      "case_id": "G4",
+      "area_multiplier": 1.17161624727046
+    }
+  ],
+  "smoke_run_ids": [
+    1,
+    2,
+    64,
+    250,
+    500,
+    750,
+    999,
+    1000
+  ],
+  "pressure_coefficient_kPa_km3_per_kt": 1215.90123801035,
+  "thresholds_kPa": [
+    3.45,
+    1,
+    0.5,
+    0.2
+  ],
+  "earth_radius_km": 6371.0088,
+  "scenario_center_lat_deg": 38.95416684685,
+  "scenario_center_lon_deg": 35.23749913905,
+  "population_domain": 87794916.9867744,
+  "valid_cells": 684872,
+  "positive_cells": 684119,
+  "raster_size": [
+    755,
+    2299
+  ],
+  "rng_generator": "twister",
+  "model_scope": "Frozen Chelyabinsk-class reduced-order model. Numerical replay is not independent physical validation."
+}

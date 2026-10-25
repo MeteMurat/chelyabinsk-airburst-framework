@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Cite the associated manuscript and the exact commit used. This is a revision-stage code release."
+title: "Chelyabinsk-class airburst framework: frozen MATLAB sources and replay harness"
+type: software
+version: "r1c6-replay-candidate-1"
+authors:
+  - family-names: "Türkoğlu"
+    given-names: "Murat Metehan"
+    orcid: "https://orcid.org/0000-0002-2857-866X"
+repository-code: "https://github.com/MeteMurat/chelyabinsk-airburst-framework"
+keywords:
+  - Chelyabinsk
+  - atmospheric entry
+  - fragmentation
+  - numerical reproducibility

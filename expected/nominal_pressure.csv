@@ -1,0 +1,5 @@
+threshold_kPa,threshold_role,corrected_nominal_h_burst_km,corrected_nominal_E_c_kton,C_overpressure_kPa_km3_per_kton,R_3D_km,R_ground_km,footprint_area_km2
+3.45,principal window-damage screening contour,23.75,331.630196642695,1215.90123801035,48.8927454501272,42.7368466039661,5737.92438415298
+1,low-overpressure regional screening contour,23.75,331.630196642695,1215.90123801035,73.8783957641028,69.9568071075103,15374.8126373042
+0.5,calibration anchor / extended weak-overpressure contour,23.75,331.630196642695,1215.90123801035,93.0809459556573,90,25446.9004940773
+0.2,far-field screening envelope,23.75,331.630196642695,1215.90123801035,126.330279735677,124.077705806057,48365.689368521

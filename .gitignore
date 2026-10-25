@@ -1,0 +1,17 @@
+04_data/
+LOCAL_ONLY_INPUTS/
+05_outputs/
+replay_outputs/
+local_audit/
+*.mat
+*.tif
+*.tiff
+*.stl
+*.log
+*.rar
+*.zip
+__pycache__/
+*.pyc
+.env
+*.key
+*.pem

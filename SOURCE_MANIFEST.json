@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "purpose": "Immutable scientific source, configuration, input design, reference output, replay code and documentation. Raw inputs and runtime status are separate.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "CC392E235137DB04EBD7CAD3770E847859C47B1ECF0B381B032A444A2AB7EE6E",
+      "bytes": 148
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "73BB81F616664F479879C7DA32011202920A839A76F1F384D7F8B50B1C8DB4BE",
+      "bytes": 148
+    },
+    {
+      "path": "01_final_core/make_stl_geometry_summary.m",
+      "sha256": "8A8EE414114C2FBC0AF81CCBA12794A50E8211286B19CCFE4803678E3DF606E7",
+      "bytes": 11062
+    },
+    {
+      "path": "01_final_core/make_stl_local_radius_summary.m",
+      "sha256": "E3AB117ADFE55BBE5C42AF30DA8146B64A729EA5CD515E3F8AA2C044E14B373E",
+      "bytes": 11846
+    },
+    {
+      "path": "01_final_core/meteor_single_run.m",
+      "sha256": "BE3DAC129E6A9DC9D0CCF1D8F95D72E7E0A11EA19E041942E71A20CD47697ABC",
+      "bytes": 18174
+    },
+    {
+      "path": "01_final_core/meteor_single_run_r3b3_diagnostic.m",
+      "sha256": "58EF0D1C6F45476C600356961B3BCABAF9C7A3D2FE0569E20401D9436E68C59A",
+      "bytes": 42423
+    },
+    {
+      "path": "01_final_core/run_r3c2c_r2_corrected_full1000.m",
+      "sha256": "D3140A7D002FC33F074298FC47868FF73948A0D5D9390F1EBB40B90FD04D3082",
+      "bytes": 53743
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "34CF5F03825574118B772BDD6B93D6633A71DC99302195179A886F677BD2E24F",
+      "bytes": 564
+    },
+    {
+      "path": "README.md",
+      "sha256": "E08E2422CD80E8941F90111DC0FC49FBFBA3DFD0BB4D6017D50BB0B6B522C03F",
+      "bytes": 6610
+    },
+    {
+      "path": "RIGHTS_AND_THIRD_PARTY_NOTICES.md",
+      "sha256": "FDFA28B0B4065A5D85AE846C1EA938436D992AC59740F552C3E03DB6B28113E5",
+      "bytes": 1198
+    },
+    {
+      "path": "docs/DATA_REQUIREMENTS.md",
+      "sha256": "7F8C67696A6170ED758584898620F1C66F7EBE1E2C2A4F01DDE56B5948A8FFAA",
+      "bytes": 2297
+    },
+    {
+      "path": "docs/OFFICIAL_TOOL_REFERENCES.md",
+      "sha256": "3B7FFA049F5F2944F68A179493CEBEA3DC64DEB04523BBA330CCC24082C5E8B7",
+      "bytes": 476
+    },
+    {
+      "path": "docs/REPLAY_DESIGN.md",
+      "sha256": "3086BE8A22201B767857430D1AFA392BB35DF954DF047146CA24798D41D0DB05",
+      "bytes": 3577
+    },
+    {
+      "path": "docs/source_origins.json",
+      "sha256": "18248DB7EDCA202AF65E2685E0D25114A6F2ABDB99A8D1C08BE55A62D0FC1EF4",
+      "bytes": 6094
+    },
+    {
+      "path": "expected/g0g4.csv",
+      "sha256": "10CD4D27648C58FAAFB27A5F9429A4EDA3A265C541C54623C4C902281C4F3CA5",
+      "bytes": 902
+    },
+    {
+      "path": "expected/geometry.csv",
+      "sha256": "377CA58B6FE856060E48291B3C8B61903C926AB63ABDD061D0A8A3F57ABCF109",
+      "bytes": 1086
+    },
+    {
+      "path": "expected/local_radius.csv",
+      "sha256": "0A347671F288E1A31CF97818262F571B313B29CDD439F6ADC5F265C38741D082",
+      "bytes": 1230
+    },
+    {
+      "path": "expected/mc_diagnostics.csv",
+      "sha256": "4015DDF40292D1134A230F6F225B3B87CA32BE78C45A13B89A6D07C81539B077",
+      "bytes": 805517
+    },
+    {
+      "path": "expected/mc_metrics.csv",
+      "sha256": "12A2E2C6D00B4438F9EF1ED3D397370CFCB4D9E01521534A3C20A585B9845C66",
+      "bytes": 188199
+    },
+    {
+      "path": "expected/nominal.csv",
+      "sha256": "6BC92C90C8017CBB774D0D9C9425A67BAD920365CDB373499CFA7DB1B28010EB",
+      "bytes": 758
+    },
+    {
+      "path": "expected/nominal_deposition.csv",
+      "sha256": "C6411C7BBAAE10BE40A0A7C643EF974E711B1EB1719244FBC9B0B742D1BCCBA3",
+      "bytes": 9982
+    },
+    {
+      "path": "expected/nominal_population.csv",
+      "sha256": "1078E6681843504EC3E4F386303A6AF067348A3DD33FD5282A20EA69C7F67E0F",
+      "bytes": 612
+    },
+    {
+      "path": "expected/nominal_pressure.csv",
+      "sha256": "8B5A183B33A87CC2C13D7C2105CE77550B329D18FE692C439746C20133D63D2E",
+      "bytes": 696
+    },
+    {
+      "path": "expected/nominal_timeseries.csv",
+      "sha256": "621068B3CC95766C3A1A5E3F4E53C0B8D703E03EE055239D721D289A8C6C41EA",
+      "bytes": 1782263
+    },
+    {
+      "path": "expected/population.csv",
+      "sha256": "9B0E418C2BE8680C92E9244B0A5C9B0F1419CFBCC0328B7CB52B90C671376E04",
+      "bytes": 335971
+    },
+    {
+      "path": "expected/pressure.csv",
+      "sha256": "D653D59E1151BAF01AC9AAE5494D9F1E92823A30BE9AF5B0EBC31ADC12B1CFB5",
+      "bytes": 167032
+    },
+    {
+      "path": "historical_drivers/run_r3c1_corrected_nominal_g4.m",
+      "sha256": "0614C4F831CB3CE89092ABA10AB76EC95D0AA79DE2A09A6BACA12C7A5C017AA4",
+      "bytes": 29161
+    },
+    {
+      "path": "historical_drivers/run_r3c3b_corrected_full1000_overpressure.m",
+      "sha256": "E21BAEB323F84B6D9035D4AA443BE48FDAA06F42291F0539D14755E1744EAE8B",
+      "bytes": 22874
+    },
+    {
+      "path": "historical_drivers/run_r3c4d_r2_cumsum_compatibility_repair.m",
+      "sha256": "A637DC84412A60F95775AA745916FACC85229C306FF71777B6B9CCA5E289A0AE",
+      "bytes": 33410
+    },
+    {
+      "path": "inputs/historical_horizon_gate.csv",
+      "sha256": "7EA979633315CC9D866BF6D054F4A13A5B0689D0060B2EA2457A7E773D27010D",
+      "bytes": 1152
+    },
+    {
+      "path": "inputs/mc_design.csv",
+      "sha256": "56D2B6FA994015333E453D4759B6D4501D494BACEE102525A7F40B44A7239C85",
+      "bytes": 263302
+    },
+    {
+      "path": "inputs/pilot64.csv",
+      "sha256": "2E7F36E1127DD05497CEB8B242CB9F7A89C496E5C3ED6A3A085F04F2A4DF64F6",
+      "bytes": 29262
+    },
+    {
+      "path": "inputs/replay_config.json",
+      "sha256": "EC096407725029DA1CC2BC412A6A219A95274C343764C50D2E806B761C91DE9A",
+      "bytes": 1682
+    },
+    {
+      "path": "inputs/required_binary_inputs.json",
+      "sha256": "3DF9EC20495B6E1C612D52AFEE9FE0493702A2B0B05F4EA6DD2533502538097E",
+      "bytes": 465
+    },
+    {
+      "path": "reproduce.ps1",
+      "sha256": "5C7473209EF555D69829D16981F99396FBA4346E23A12BB3D62DDBA997B2859F",
+      "bytes": 1115
+    },
+    {
+      "path": "reproduction/run_clean_replay.m",
+      "sha256": "1FBB7515ECDFF1C85715F55FE23F027E72F8E7DFADE5D2F1FF4A9EFB8BF2CA29",
+      "bytes": 25870
+    },
+    {
+      "path": "tests/verify_reference_fixtures.py",
+      "sha256": "F3352111FFCA588CC82737FAE8B8A2E9D2A1AA75304C0B7284CB1BC829328A92",
+      "bytes": 3954
+    }
+  ]
+}

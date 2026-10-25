@@ -1,0 +1,8 @@
+# Frozen file hashes require byte-preserving checkouts on Windows and Linux.
+* -text
+*.m diff
+*.py diff
+*.md diff
+*.csv diff
+*.json diff
+*.ps1 diff
