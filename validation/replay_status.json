@@ -1,10 +1,11 @@
 {
   "schema_version": 1,
-  "status": "MATLAB_FORWARD_REPLAY_NOT_YET_EXECUTED",
+  "status": "R1_C6E_R2_SYNTAX_REPAIRED_FORWARD_REPLAY_PENDING",
   "matlab_forward_replay_executed": false,
   "mc_rows_replayed": 0,
   "population_rows_recomputed": 0,
   "full_reproduction_verified": false,
   "scientific_model_modified": false,
-  "note": "Package/static and archived-output checks are not a substitute for a new MATLAB forward run."
+  "harness_revision": "R1-C6E-R2",
+  "note": "Native MATLAB code analysis and numeric-predicate tests passed; forward results pending."
 }

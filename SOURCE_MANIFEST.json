@@ -178,9 +178,14 @@
       "bytes": 1115
     },
     {
+      "path": "reproduction/r1c6e_native_preflight.m",
+      "sha256": "99C516C5C4EB05BB18818570C30A54AEE869077695A6D4A0E36F2795205E5756",
+      "bytes": 5752
+    },
+    {
       "path": "reproduction/run_clean_replay.m",
-      "sha256": "1FBB7515ECDFF1C85715F55FE23F027E72F8E7DFADE5D2F1FF4A9EFB8BF2CA29",
-      "bytes": 25870
+      "sha256": "3A54784F613A32BA6308E377D5E5AFCFD9F5D2D9499547062F206D3F5B518711",
+      "bytes": 26056
     },
     {
       "path": "tests/verify_reference_fixtures.py",

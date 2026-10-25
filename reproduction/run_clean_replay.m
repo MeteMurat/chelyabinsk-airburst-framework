@@ -246,7 +246,11 @@ end
         end
         bothNan=isnan(a)&isnan(b); finite=isfinite(a)&isfinite(b);
         d=abs(a-b); d(bothNan)=0;
-        ok=all(bothNan(:) | (finite(:)&d(:)<=max(atol,rtol*max(abs(a(:)),abs(b(:)))));
+        % Same elementwise tolerances; split the expression to avoid delimiter errors.
+        scale = max(abs(a), abs(b));
+        tolerance = max(atol, rtol * scale);
+        withinTolerance = finite & (d <= tolerance);
+        ok = all(bothNan(:) | withinTolerance(:));
         if isempty(d),maxd=0;else,maxd=max(d(:));end
         checks(end+1)=struct('name',char(name),'passed',logical(ok),'max_absolute_error',maxd);
         assert(ok,'Replay:NumericMismatch','Numeric mismatch in %s; max_abs_error=%.16g',name,maxd);

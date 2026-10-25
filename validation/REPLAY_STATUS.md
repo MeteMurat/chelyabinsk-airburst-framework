@@ -1,6 +1,6 @@
 # Replay status
 
-Status: **MATLAB_FORWARD_REPLAY_NOT_YET_EXECUTED**
+Status: **R1_C6E_R2_SYNTAX_REPAIRED_FORWARD_REPLAY_PENDING**
 
 MATLAB forward execution: `False`
 Monte Carlo rows replayed: `0`
