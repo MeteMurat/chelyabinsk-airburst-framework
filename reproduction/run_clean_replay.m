@@ -49,6 +49,7 @@ try
         check_flag(['path_resolution:' name{1}],strcmpi(strrep(actual,'\','/'),strrep(intended,'\','/')));
     end
     C=jsondecode(fileread(fullfile(root,'inputs','replay_config.json')));
+    validate_population_table_shapes(C);
     expected=@(name) read_csv(fullfile(root,'expected',name));
     fprintf('\n=== CLEAN MATLAB REPLAY: GEOMETRY AND LOCAL RADIUS ===\n');
     invoke_geometry_summary();
@@ -389,7 +390,7 @@ D.cumPop=cumsum(double(pop(ord)));D.cumArea=cumsum(double(area(ord)));
 end
 function E=compute_population(P,D,C)
 rr=P{:,{'R_3_45_kPa_km','R_1_00_kPa_km','R_0_50_kPa_km','R_0_20_kPa_km'}};
-radii=reshape(rr',[],1);ids=repelem(P.run_id,4);thresholds=repmat(C.thresholds_kPa(:),height(P),1);
+radii=reshape(rr',[],1);ids=repelem(P.run_id,4);ids=ids(:);thresholds=repmat(C.thresholds_kPa(:),height(P),1);
 pop=zeros(numel(radii),1);areas=pop;counts=pop;
 for i=1:numel(radii)
     lo=0;hi=numel(D.distance);
@@ -404,6 +405,43 @@ E=table(ids,thresholds,radii,pi*radii.^2,areas,pop,pop/D.total,counts, ...
     'VariableNames',{'run_id','threshold_kpa','radius_km','physical_footprint_area_km2', ...
     'population_grid_support_area_km2','exposed_population','exposure_fraction','included_cell_count'});
 end
+function validate_population_table_shapes(C)
+% Synthetic 1/8/1000-row regression of the ACTUAL local compute_population.
+% No scientific kernel, raster, archived result, or random stream is touched.
+D.distance = [0.5;1.5;2.5;3.5;4.5;5.5];
+D.cumPop = [10;30;60;100;150;210];
+D.cumArea = [1;3;6;10;15;21];
+D.total = 210;
+for n = [1 8 1000]
+    id = (1:n)';
+    one = ones(n,1);
+    P = table(id,2*one,3*one,4*one,5*one, ...
+        'VariableNames',{'run_id','R_3_45_kPa_km','R_1_00_kPa_km', ...
+        'R_0_50_kPa_km','R_0_20_kPa_km'});
+    E = compute_population(P,D,C);
+    idExpected = repelem(id,4);
+    idExpected = idExpected(:);
+    thresholdsExpected = repmat(C.thresholds_kPa(:),n,1);
+    radiusExpected = repmat([2;3;4;5],n,1);
+    popExpected = repmat([30;60;100;150],n,1);
+    countExpected = repmat([2;3;4;5],n,1);
+    assert(height(E)==4*n && width(E)==8, ...
+        'Replay:PopulationTableShape','Wrong population table shape for n=%d.',n);
+    assert(iscolumn(E.run_id) && isequal(E.run_id,idExpected), ...
+        'Replay:PopulationRunIDShape','Wrong repeated run IDs for n=%d.',n);
+    assert(isequal(E.threshold_kpa,thresholdsExpected) && ...
+        isequal(E.radius_km,radiusExpected), ...
+        'Replay:PopulationOrdering','Pressure threshold or radius order changed for n=%d.',n);
+    assert(isequal(E.exposed_population,popExpected) && ...
+        isequal(E.included_cell_count,countExpected), ...
+        'Replay:PopulationCounts','Unexpected synthetic exposure results for n=%d.',n);
+    assert(iscolumn(E.population_grid_support_area_km2) && ...
+        iscolumn(E.physical_footprint_area_km2), ...
+        'Replay:PopulationAreas','Area output orientation incorrect for n=%d.',n);
+end
+fprintf('native_population_shape_regression=PASS_1_8_1000\n');
+end
+
 function q=linear_quantile(x,p)
 x=sort(x(:));pos=1+(numel(x)-1)*p;lo=floor(pos);hi=ceil(pos);
 q=zeros(size(p));for i=1:numel(p),q(i)=x(lo(i))+(pos(i)-lo(i))*(x(hi(i))-x(lo(i)));end

@@ -1,19 +1,11 @@
 {
   "schema_version": 1,
-  "mode": "full1000",
-  "status": "FAIL_CLEAN_MATLAB_REPLAY",
-  "matlab_forward_replay_executed": true,
-  "mc_rows_replayed": 8,
-  "population_rows_recomputed": 32,
-  "scientific_model_modified": false,
+  "status": "R1_C6E_R3_POPULATION_VECTOR_REPAIRED_FORWARD_REPLAY_PENDING",
+  "matlab_forward_replay_executed": false,
+  "mc_rows_replayed": 0,
+  "population_rows_recomputed": 0,
   "full_reproduction_verified": false,
-  "started_utc": "2026-10-25T12:35:37Z",
-  "matlab_release": "2025b",
-  "matlab_version": "25.2.0.2998904 (R2025b)",
-  "architecture": "win64",
-  "replay_execution": "CPU sequential; no parpool or gpuArray requested by replay harness",
-  "rng_generator": "twister",
-  "error_identifier": "MATLAB:table:UnequalVarLengths",
-  "error_summary": "A replay check failed. Inspect local matlab_console.log and checks.csv.",
-  "check_count": 533
+  "scientific_model_modified": false,
+  "harness_revision": "R1-C6E-R2",
+  "note": "Native MATLAB code analysis and numeric-predicate tests passed; real 1/8/1000 table-shape regression will run before forward geometry."
 }
