@@ -1,11 +1,35 @@
 {
   "schema_version": 1,
-  "status": "R1_C6E_R3_POPULATION_VECTOR_REPAIRED_FORWARD_REPLAY_PENDING",
-  "matlab_forward_replay_executed": false,
-  "mc_rows_replayed": 0,
-  "population_rows_recomputed": 0,
-  "full_reproduction_verified": false,
+  "mode": "full1000",
+  "status": "PASS_CLEAN_MATLAB_FORWARD_REPLAY_FULL1000_AND_POPULATION",
+  "matlab_forward_replay_executed": true,
+  "mc_rows_replayed": 1000,
+  "population_rows_recomputed": 4000,
   "scientific_model_modified": false,
-  "harness_revision": "R1-C6E-R2",
-  "note": "Native MATLAB code analysis and numeric-predicate tests passed; real 1/8/1000 table-shape regression will run before forward geometry."
+  "full_reproduction_verified": true,
+  "started_utc": "2026-10-25T13:06:52Z",
+  "matlab_release": "2025b",
+  "matlab_version": "25.2.0.2998904 (R2025b)",
+  "architecture": "win64",
+  "replay_execution": "CPU sequential; no parpool or gpuArray requested by replay harness",
+  "rng_generator": "twister",
+  "nominal_historical_radius_delta_km": 4.3404678251590667E-7,
+  "check_count": 660,
+  "smoke_pass": true,
+  "all_checks_pass": true,
+  "terminal_incomplete_count": 520,
+  "terminal_incomplete_is_not_automatic_failure": true,
+  "mc_burst_altitude_quantiles_km": [
+    20.25,
+    22.75,
+    25.75
+  ],
+  "mc_coupled_energy_quantiles_kt": [
+    206.8661277028649,
+    330.86707065726148,
+    507.07638213524791
+  ],
+  "finished_utc": "2026-10-25T14:27:11Z",
+  "nominal_burst_altitude_km": 23.75,
+  "nominal_coupled_energy_kt": 331.63019664269535
 }

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "mode": "full1000",
+  "status": "PASS_SMOKE_REPLAY_FULL1000_PENDING",
+  "matlab_forward_replay_executed": true,
+  "mc_rows_replayed": 8,
+  "population_rows_recomputed": 32,
+  "scientific_model_modified": false,
+  "full_reproduction_verified": false,
+  "started_utc": "2026-10-25T13:06:52Z",
+  "matlab_release": "2025b",
+  "matlab_version": "25.2.0.2998904 (R2025b)",
+  "architecture": "win64",
+  "replay_execution": "CPU sequential; no parpool or gpuArray requested by replay harness",
+  "rng_generator": "twister",
+  "nominal_historical_radius_delta_km": 4.3404678251590667E-7,
+  "check_count": 537,
+  "smoke_pass": true,
+  "all_checks_pass": true
+}
